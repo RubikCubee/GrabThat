@@ -4,6 +4,10 @@ using System.Collections;
 public class PlayerOneController : MonoBehaviour {
 
     public int speed = 1500;
+
+    private int score = 0;
+
+
     // Use this for initialization
     void Start () {
 	

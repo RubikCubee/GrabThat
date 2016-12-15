@@ -1,0 +1,260 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+# Your branch is based on 'origin/master', but the upstream is gone.
+#   (use "git branch --unset-upstream" to fixup)
+#
+# Changes to be committed:
+#	new file:   Assets/Classes.meta
+#	modified:   Assets/Materials/Player.mat
+#	new file:   Assets/Materials/Textures.meta
+#	renamed:    Assets/Materials/Value1.png -> Assets/Materials/Textures/Value1.png
+#	renamed:    Assets/Materials/Value1.png.meta -> Assets/Materials/Textures/Value1.png.meta
+#	renamed:    Assets/Materials/Value3.png -> Assets/Materials/Textures/Value3.png
+#	renamed:    Assets/Materials/Value3.png.meta -> Assets/Materials/Textures/Value3.png.meta
+#	renamed:    Assets/Materials/Value5.png -> Assets/Materials/Textures/Value5.png
+#	renamed:    Assets/Materials/Value5.png.meta -> Assets/Materials/Textures/Value5.png.meta
+#	renamed:    Assets/Materials/Value7.png -> Assets/Materials/Textures/Value7.png
+#	renamed:    Assets/Materials/Value7.png.meta -> Assets/Materials/Textures/Value7.png.meta
+#	new file:   Assets/Materials/Value1.mat
+#	new file:   Assets/Materials/Value1.mat.meta
+#	new file:   Assets/Materials/Value3.mat
+#	new file:   Assets/Materials/Value3.mat.meta
+#	new file:   Assets/Materials/Value5.mat
+#	new file:   Assets/Materials/Value5.mat.meta
+#	renamed:    Assets/Materials/Materials/Value7.mat -> Assets/Materials/Value7.mat
+#	renamed:    Assets/Materials/Materials/Value7.mat.meta -> Assets/Materials/Value7.mat.meta
+#	new file:   Assets/Resources.meta
+#	new file:   Assets/Resources/RewardValue1.prefab
+#	new file:   Assets/Resources/RewardValue1.prefab.meta
+#	new file:   Assets/Resources/RewardValue3.prefab
+#	new file:   Assets/Resources/RewardValue3.prefab.meta
+#	new file:   Assets/Resources/RewardValue5.prefab
+#	new file:   Assets/Resources/RewardValue5.prefab.meta
+#	new file:   Assets/Resources/RewardValue7.prefab
+#	new file:   Assets/Resources/RewardValue7.prefab.meta
+#	modified:   Assets/Scenes/Game.unity
+#	new file:   Assets/Scenes/GameResult.unity
+#	new file:   Assets/Scenes/GameResult.unity.meta
+#	new file:   Assets/Scripts/GenerateRewards.cs
+#	new file:   Assets/Scripts/GenerateRewards.cs.meta
+#	modified:   Assets/Scripts/PlayerOneController.cs
+#	modified:   Assets/Scripts/PlayerTwoController.cs
+#	renamed:    Assets/Materials/Materials.meta -> Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials.meta
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/CliffAlbedoSpecular.mat
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/CliffAlbedoSpecular.mat.meta
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassHillAlbedo.mat.meta
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassRockyAlbedo.mat
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/GrassRockyAlbedo.mat.meta
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/MudRockyAlbedoSpecular.mat
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/MudRockyAlbedoSpecular.mat.meta
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/SandAlbedo.mat
+#	new file:   Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials/SandAlbedo.mat.meta
+#	new file:   GrabThat.Editor.csproj
+#	new file:   GrabThat.csproj
+#	new file:   GrabThat.sln
+#	new file:   GrabThat.userprefs
+#	modified:   Library/InspectorExpandedItems.asset
+#	modified:   Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+#	modified:   Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+#	modified:   Library/ScriptAssemblies/Assembly-CSharp.dll
+#	modified:   Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	new file:   Library/ShaderCache/4/414f0f8fbfcb3b5bf8f4b5af247d0529.bin
+#	new file:   Library/ShaderCache/5/564e54a2fc5cab476b63e7f9bf138de4.bin
+#	modified:   Library/assetDatabase3
+#	modified:   Library/metadata/00/00000000000000004000000000000000
+#	modified:   Library/metadata/00/00000000000000006100000000000000
+#	new file:   Library/metadata/02/022ddb4daa3de404daf82641074ad229
+#	new file:   Library/metadata/02/022ddb4daa3de404daf82641074ad229.info
+#	modified:   Library/metadata/08/08a1dd4662579a140b5fbf863f5e3079
+#	new file:   Library/metadata/1d/1d5852ae7e470864c8f4361102de4792
+#	new file:   Library/metadata/1d/1d5852ae7e470864c8f4361102de4792.info
+#	new file:   Library/metadata/39/39eb7ab558098fc4dab738a481ebdb05
+#	new file:   Library/metadata/39/39eb7ab558098fc4dab738a481ebdb05.info
+#	new file:   Library/metadata/3a/3aa90754c55c44c418f6926125db335a
+#	new file:   Library/metadata/3a/3aa90754c55c44c418f6926125db335a.info
+#	new file:   Library/metadata/3d/3d8e91ab08366f8408d865fe0916fbe8
+#	new file:   Library/metadata/3d/3d8e91ab08366f8408d865fe0916fbe8.info
+#	new file:   Library/metadata/50/506026c7c9a509f47b8cf7be7b57b4d6
+#	new file:   Library/metadata/50/506026c7c9a509f47b8cf7be7b57b4d6.info
+#	new file:   Library/metadata/5a/5a779e9a69afc4f47892c4a7dd8256f8
+#	new file:   Library/metadata/5a/5a779e9a69afc4f47892c4a7dd8256f8.info
+#	modified:   Library/metadata/60/60bd6fbe96ab616488737d1dd451b4dd.info
+#	modified:   Library/metadata/6e/6ef05dc593d963c489becf909477151d
+#	modified:   Library/metadata/78/787074af61acc004b9beb7ee472abacd
+#	new file:   Library/metadata/90/9025184c6013df1429906fd2b2f51eb3
+#	new file:   Library/metadata/90/9025184c6013df1429906fd2b2f51eb3.info
+#	modified:   Library/metadata/92/929fc4a45e570874483f5b1ec53b7dd4
+#	new file:   Library/metadata/92/92cb0085b6140864688547c21637e6d9
+#	new file:   Library/metadata/92/92cb0085b6140864688547c21637e6d9.info
+#	modified:   Library/metadata/94/9430e039a9495864f8dab43e09462008
+#	new file:   Library/metadata/96/96b65e1701c75e1449945e56e09fb3db
+#	renamed:    Library/metadata/9e/9e07c287e2fb74d4fbec37bbbe560efb.info -> Library/metadata/96/96b65e1701c75e1449945e56e09fb3db.info
+#	new file:   Library/metadata/b5/b5adb83b4935f214290b9742955b6b7d
+#	new file:   Library/metadata/b5/b5adb83b4935f214290b9742955b6b7d.info
+#	renamed:    Library/metadata/9e/9e07c287e2fb74d4fbec37bbbe560efb -> Library/metadata/bd/bdb643cd3b8ab7b43bc1b9c900dad26e
+#	new file:   Library/metadata/bd/bdb643cd3b8ab7b43bc1b9c900dad26e.info
+#	modified:   Library/metadata/c6/c6c092a9aaf4b3d4aa63ebf3863a8100
+#	new file:   Library/metadata/c9/c9a4b54e371b2e746a0f3fa9f8940560
+#	new file:   Library/metadata/c9/c9a4b54e371b2e746a0f3fa9f8940560.info
+#	new file:   Library/metadata/cd/cd15698a41b00d3489dd9aa11379ee79
+#	new file:   Library/metadata/cd/cd15698a41b00d3489dd9aa11379ee79.info
+#	new file:   Library/metadata/d1/d1cede88f8fb1aa4d8a8b5d24e44993f
+#	new file:   Library/metadata/d1/d1cede88f8fb1aa4d8a8b5d24e44993f.info
+#	new file:   Library/metadata/db/db6c7a0441a1a9e458e5c75b78cfc70f
+#	new file:   Library/metadata/db/db6c7a0441a1a9e458e5c75b78cfc70f.info
+#	new file:   Library/metadata/e5/e56977726ebb93f4c945e7890abf5d5b
+#	new file:   Library/metadata/e5/e56977726ebb93f4c945e7890abf5d5b.info
+#	modified:   Library/metadata/f4/f400232dce1820945962aaa2471fd5ba
+#	modified:   Library/metadata/f4/f400232dce1820945962aaa2471fd5ba.info
+#	new file:   Library/metadata/f8/f8a91aab9ec3cc649a1df9fab7d01e33
+#	new file:   Library/metadata/f8/f8a91aab9ec3cc649a1df9fab7d01e33.info
+#	modified:   Library/shadercompiler-UnityShaderCompiler.exe0.log
+#	new file:   Temp/ProcessJobs/00000000000000000000000000000000.bakeup
+#	new file:   Temp/ProcessJobs/01391504477f93051a51bcfb86ac88b8.lt
+#	new file:   Temp/ProcessJobs/01391504477f93051a51bcfb86ac88b8.vis
+#	new file:   Temp/ProcessJobs/053456f9296743c9221da0fd63284375.lt
+#	new file:   Temp/ProcessJobs/053456f9296743c9221da0fd63284375.vis
+#	new file:   Temp/ProcessJobs/0535e6327f0e40fadd4a86ba8b5d5ea5.lt
+#	new file:   Temp/ProcessJobs/0535e6327f0e40fadd4a86ba8b5d5ea5.vis
+#	new file:   Temp/ProcessJobs/0fccad7f23eb1fa6c3d55d6644d22593.clust
+#	new file:   Temp/ProcessJobs/130322fd8e809aabfc7758574ab7b551.clust
+#	new file:   Temp/ProcessJobs/1cca9be2d2410322d6c656a4c49cdb1f.lt
+#	new file:   Temp/ProcessJobs/1cca9be2d2410322d6c656a4c49cdb1f.vis
+#	new file:   Temp/ProcessJobs/22b794a1d53cda86b35add1bac82cb7e.clust
+#	new file:   Temp/ProcessJobs/24e97ee5f7057d7876198064f72a3c25.clust
+#	new file:   Temp/ProcessJobs/2772e37100ab814ff2ad9a01d9bbb95f.clust
+#	new file:   Temp/ProcessJobs/28ee314795ab26d7b74ad9ea5010af0f.clust
+#	new file:   Temp/ProcessJobs/296c64794b3bbaa8f4224d7fa7039cdf.clust
+#	new file:   Temp/ProcessJobs/2be3eb5dddd19855ddf751770067b2d7.clust
+#	new file:   Temp/ProcessJobs/2e014db0fc513aa7077f81e599e1c4e3.clust
+#	new file:   Temp/ProcessJobs/364d6c3ae7cf891de23600b6ecdf7b00.clust
+#	new file:   Temp/ProcessJobs/37d94489c9c94cfcc2c464a78ccf5d05.clust
+#	new file:   Temp/ProcessJobs/3b3dfc190a32f21be8adc1a4b515cda2.lt
+#	new file:   Temp/ProcessJobs/3b3dfc190a32f21be8adc1a4b515cda2.vis
+#	new file:   Temp/ProcessJobs/45f5b489c2732580b105379ef60862fc.clust
+#	new file:   Temp/ProcessJobs/483c81170c48c618d58d0984b95b4fc5.clust
+#	new file:   Temp/ProcessJobs/489a17ee653ff74402f248e030ed1ca6.lt
+#	new file:   Temp/ProcessJobs/489a17ee653ff74402f248e030ed1ca6.vis
+#	new file:   Temp/ProcessJobs/4b2153776c4d856fc59f09ee4fa8798c.lt
+#	new file:   Temp/ProcessJobs/4b2153776c4d856fc59f09ee4fa8798c.vis
+#	new file:   Temp/ProcessJobs/4c4e5c35cca8f49c5f19ac07f5a7937a.lt
+#	new file:   Temp/ProcessJobs/4c4e5c35cca8f49c5f19ac07f5a7937a.vis
+#	new file:   Temp/ProcessJobs/5460bbb807a70b244fc06de463d330bd.clust
+#	new file:   Temp/ProcessJobs/561640285d0a722b69781efe760454b7.lt
+#	new file:   Temp/ProcessJobs/561640285d0a722b69781efe760454b7.vis
+#	new file:   Temp/ProcessJobs/57131b795c46de341b36a6424d55e8c4.bakeup
+#	new file:   Temp/ProcessJobs/5b6847ba03392e4f7cd7d5f972903018.clust
+#	new file:   Temp/ProcessJobs/5cca9d630a479731395ace181ac03098.vis
+#	new file:   Temp/ProcessJobs/5ff2bd865d5aa727b232f5b7e08356cf.vis
+#	new file:   Temp/ProcessJobs/6404becb3f6f0a0760072954a79eee09.lt
+#	new file:   Temp/ProcessJobs/6404becb3f6f0a0760072954a79eee09.vis
+#	new file:   Temp/ProcessJobs/648575f6d90ce05b1981eee6ba318e0b.lt
+#	new file:   Temp/ProcessJobs/648575f6d90ce05b1981eee6ba318e0b.vis
+#	new file:   Temp/ProcessJobs/6527b8240596528d0fda4f08fa297ada.bakeup
+#	new file:   Temp/ProcessJobs/695fd46b8fc8c82f7a10db021ce48c25.lt
+#	new file:   Temp/ProcessJobs/695fd46b8fc8c82f7a10db021ce48c25.vis
+#	new file:   Temp/ProcessJobs/6b946a0d0c07dad2cdaf2ed391d240e5.clust
+#	new file:   Temp/ProcessJobs/71755b0dafba4a9fe9214e9c1c9576b7.lt
+#	new file:   Temp/ProcessJobs/71755b0dafba4a9fe9214e9c1c9576b7.vis
+#	new file:   Temp/ProcessJobs/72c67eccea44fb16da5f2a75e1cc559b.clust
+#	new file:   Temp/ProcessJobs/7e6c71362c78cb896285d27fd6c4722f.lt
+#	new file:   Temp/ProcessJobs/7e6c71362c78cb896285d27fd6c4722f.vis
+#	new file:   Temp/ProcessJobs/83925497c5e50652a61a7a15bd658265.clust
+#	new file:   Temp/ProcessJobs/8b65626d23d3cb572b607cce516dad08.lt
+#	new file:   Temp/ProcessJobs/8b65626d23d3cb572b607cce516dad08.vis
+#	new file:   Temp/ProcessJobs/8ceb74b3dbff52dcc6f8a1532e627533.clust
+#	new file:   Temp/ProcessJobs/8ebad6fd599bf87c66960acf810569a2.clust
+#	new file:   Temp/ProcessJobs/9332692fbefa02d89cdbff9866e0bd33.clust
+#	new file:   Temp/ProcessJobs/96bead523d34e71c9f36c9aa35bb21a1.clust
+#	new file:   Temp/ProcessJobs/971a6b921ae994b543c9c700e3c9538a.lt
+#	new file:   Temp/ProcessJobs/971a6b921ae994b543c9c700e3c9538a.vis
+#	new file:   Temp/ProcessJobs/97c9b3e95962605e9e082f414f140e8a.clust
+#	new file:   Temp/ProcessJobs/9893c9a237ddbb84f1e629ac959d00da.clust
+#	new file:   Temp/ProcessJobs/9a1a7478ace56f6529b5c2ab18d682b9.lt
+#	new file:   Temp/ProcessJobs/9a1a7478ace56f6529b5c2ab18d682b9.vis
+#	new file:   Temp/ProcessJobs/9a6b30398077eb82a8da51b7bc79bfeb.clust
+#	new file:   Temp/ProcessJobs/9a92f265298507a77a2586779ae40da4.clust
+#	new file:   Temp/ProcessJobs/9ee410ed8e0c9542f6d26bb0652e8c10.clust
+#	new file:   Temp/ProcessJobs/9f8712fea1d5c3333ca0c5f17d8786bb.lt
+#	new file:   Temp/ProcessJobs/9f8712fea1d5c3333ca0c5f17d8786bb.vis
+#	new file:   Temp/ProcessJobs/a06ca2bf352ab60f0d53ccb2dd5d12f7.clust
+#	new file:   Temp/ProcessJobs/a0bf487be1bb11babae21654cb7575cb.clust
+#	new file:   Temp/ProcessJobs/a31df6242cabb490602bedbf4439c23f.clust
+#	new file:   Temp/ProcessJobs/a56328d622ace7f35539373fd443b107.clust
+#	new file:   Temp/ProcessJobs/a6c7a2eee242672ae22d054a1a29099e.clust
+#	new file:   Temp/ProcessJobs/a71ba29e1c89bc3f892b8690aee551c9.clust
+#	new file:   Temp/ProcessJobs/a9e1b6658cd98fdf7531d0850fd377d0.lt
+#	new file:   Temp/ProcessJobs/a9e1b6658cd98fdf7531d0850fd377d0.vis
+#	new file:   Temp/ProcessJobs/ab1ff7bf240ed045d96db402580aab52.clust
+#	new file:   Temp/ProcessJobs/ace9b0883275a57b76261b5df58104d5.lt
+#	new file:   Temp/ProcessJobs/ace9b0883275a57b76261b5df58104d5.vis
+#	new file:   Temp/ProcessJobs/b2be7b0ffdc4b7c0fc7186cce4e0729f.lt
+#	new file:   Temp/ProcessJobs/b2be7b0ffdc4b7c0fc7186cce4e0729f.vis
+#	new file:   Temp/ProcessJobs/b39828be96f8bce03b298b62f418bbac.clust
+#	new file:   Temp/ProcessJobs/b62ced9af12ee9eff9121b8ced8ef313.lt
+#	new file:   Temp/ProcessJobs/b62ced9af12ee9eff9121b8ced8ef313.vis
+#	new file:   Temp/ProcessJobs/b7a4263754a6afa9ddfe8f52f8e53c0d.clust
+#	new file:   Temp/ProcessJobs/b9388f5f6dd8563ae5a6c08c94c0e4a0.clust
+#	new file:   Temp/ProcessJobs/c3576c81d77e69838ec7fe2d2a2c17ef.clust
+#	new file:   Temp/ProcessJobs/c4110d06a30d6ec69555855942a54ac9.clust
+#	new file:   Temp/ProcessJobs/c5d4dba0abf1211a2651223a762ef670.clust
+#	new file:   Temp/ProcessJobs/c5f9f9c915f7feefb4619d10f1efb3f1.bakeup
+#	new file:   Temp/ProcessJobs/cc275762fa83a55137734bcd0f3f201d.clust
+#	new file:   Temp/ProcessJobs/d2f29707758753f73a6a7ac37e9d0162.clust
+#	new file:   Temp/ProcessJobs/da6356bc81645d5a77563be31518c678.lt
+#	new file:   Temp/ProcessJobs/da6356bc81645d5a77563be31518c678.vis
+#	new file:   Temp/ProcessJobs/de83cc267e6db57d318f17f2c671d3a1.lt
+#	new file:   Temp/ProcessJobs/de83cc267e6db57d318f17f2c671d3a1.vis
+#	new file:   Temp/ProcessJobs/e2116aafbdc583c2321d23ec4a9a038b.clust
+#	new file:   Temp/ProcessJobs/e9923c9c4de086323426fe7c4ba6b5d0.clust
+#	new file:   Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+#
+# Untracked files:
+#	Temp/UnityLockfile
+#	Temp/UnityTempFile-069be4b10a077224186b4129f790e977
+#	Temp/UnityTempFile-0eacf53f7fbbf3e40891c2884c0894a1
+#	Temp/UnityTempFile-1cb3a30321a4f9d4b97ef7be1c7c3067
+#	Temp/UnityTempFile-1ee3b79a630212b4fa97743fca01611a
+#	Temp/UnityTempFile-25fbede3da0ba48408d2ed084dbb6c5a
+#	Temp/UnityTempFile-266f40e21adcb1849a5b08349a23d339
+#	Temp/UnityTempFile-2b62dcff646b03143bf5ff21736510e1
+#	Temp/UnityTempFile-2f2ea1d2f2a108046ba774c3495085f5
+#	Temp/UnityTempFile-33dd268dac71d0c4988f075338a35d76
+#	Temp/UnityTempFile-35868e729f935cd4b82232709e841f1e
+#	Temp/UnityTempFile-415835c12df22d0489d8d0848ccdaccc
+#	Temp/UnityTempFile-4f501810ae5ff3b479b5262ac73b6a2c
+#	Temp/UnityTempFile-53e74ccf3f6b4b64e9c08bbddbce2dba
+#	Temp/UnityTempFile-569f3944c4283bd40b6379c44481888f
+#	Temp/UnityTempFile-56d95dc5d475bac4abb9207cb3eec3ad
+#	Temp/UnityTempFile-589d52a95f05c4245b88d7b24fca3c3c
+#	Temp/UnityTempFile-59638f69ed82ecd44a80e7b2a69ab443
+#	Temp/UnityTempFile-6590d74d54c14ac49a8736693971ecd1
+#	Temp/UnityTempFile-6c34cb7046188d340af89467bc910e1f
+#	Temp/UnityTempFile-6cb7e05de28762749b3dd0dee16afaae
+#	Temp/UnityTempFile-71d81b6f7745c1d49ad524856d5a0f73
+#	Temp/UnityTempFile-7371dc81c737803478f522a7fdcd8d75
+#	Temp/UnityTempFile-798f65c9263aa93439a95b3914fcad51
+#	Temp/UnityTempFile-7ebc5a7584293cd4faa791f427f7a3b1
+#	Temp/UnityTempFile-83876c8026c73fa46a3fa9d327a55be7
+#	Temp/UnityTempFile-8639fd53a03eb384fbfb5b6f902b7ecc
+#	Temp/UnityTempFile-8c4c8dc023f6f9f46a22b9f61e544fce
+#	Temp/UnityTempFile-8cd8c355405a27c4084b561cd5278046
+#	Temp/UnityTempFile-9f6c3e4f464b44c41bc0dbe8dc4b2977
+#	Temp/UnityTempFile-a1502e413318c8341a3a17b8697bd58a
+#	Temp/UnityTempFile-ad1b08b076ff7cf458f5fcc0cc4a11bc
+#	Temp/UnityTempFile-c2656a2a593cc1b4bb64f96aa6bc9dcc
+#	Temp/UnityTempFile-c788dbd8e02217143bc6f018e013ab67
+#	Temp/UnityTempFile-cae0f04a12c0ea345bb231120931b39d
+#	Temp/UnityTempFile-d268bf2c5eb4a49438d7e294ada70fc1
+#	Temp/UnityTempFile-d83567ba10eb5bb4491b8288278d34c4
+#	Temp/UnityTempFile-e0a142bab1b91d04587689df3ec566b6
+#	Temp/UnityTempFile-e3878372945437a4d8c856e095f205ef
+#	Temp/UnityTempFile-fa276f3336e362a4d8da83966d5e6c4f
+#	Temp/UnityVS_obj/
+#	Temp/__Backupscenes/
+#
+

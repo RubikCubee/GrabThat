@@ -4,8 +4,12 @@ using System.Collections;
 public class PlayerTwoController : MonoBehaviour {
 
     public int speed = 15;
-	// Use this for initialization
-	void Start () {
+
+    private int score = 0;
+
+
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
