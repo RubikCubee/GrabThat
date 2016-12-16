@@ -1,8 +1,10 @@
-﻿<Properties StartupItem="GrabThat.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GenerateRewards.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RewardBehavior.cs">
     <Files>
-      <File FileName="Assets\Scripts\GenerateRewards.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GenerateRewards.cs" Line="70" Column="1" />
+      <File FileName="Assets\Scripts\RewardBehavior.cs" Line="36" Column="5" />
+      <File FileName="Assets\Scripts\PlayerTwoController.cs" Line="17" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
